@@ -1,0 +1,88 @@
+body{
+	margin:0px;
+	background-color:rgba(192,192,192); 
+}
+#texto{
+	margin: 0px 100px 0px 100px;
+	font-size: 18px;
+	font-family: verdana;
+	text-align: justify;
+}
+nav{
+	position: fixed;
+	background-color: rgba(128,128,128);
+	width: 100%;
+}
+nav ul{
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li{
+	float: left;
+	margin: 15px 50px 0px 50px;
+	font-size: 20px;
+}
+nav ul li a:hover{
+	color: black;
+}
+nav ul li a:active{
+	color:white;
+}
+#logo{
+	margin:0px 300px 0px 50px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+#inicio{
+	color: white;
+	background-color: black;
+	height: 756px;
+}
+#inicio img{
+	margin-top: 75px;
+	width: 1025px;
+}
+#sobre-nos{
+	background-color: rgba(192,192,192);
+	margin-bottom: 200px;
+}
+#sobre-nos h1{
+	padding: 50px;
+}
+#primeiro::first-letter{
+	font-size: 200%;
+}
+#produtos{
+	color: white;
+	background-color: black;
+	height: 4791px;
+}
+#produtos h1{
+	padding: 50px;
+}
+#contato{
+	height: 700px;
+	background-color: rgba(192,192,192);
+}
+
+#contato h1{
+	padding: 50px;
+} 
+p a{
+	text-decoration: none;
+	color: rgb(65,86,184);
+}
+#direita{
+	float: left;
+	width: 40%;
+	margin-left: 100px;
+	border-right: 1px solid black;
+	padding-right: 26px;
+}
+#esquerda{
+	float: right;
+	width: 40%;
+	margin-right: 100px;
+}
